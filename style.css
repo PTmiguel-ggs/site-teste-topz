@@ -116,15 +116,16 @@ footer {
 footer p {
     font-size: 14px;
 }
+
 footer {
-    padding: 20px; 
-    border-radius: 15px; 
-    
-    text-align: center; 
+    padding: 20px;
+    border-radius: 15px;
+
+    text-align: center;
 }
 
 footer .assinatura {
-    font-size: 12px;
+    font-size: 20px;
     color: #ff0000;
     margin-top: 10px;
 }
@@ -180,7 +181,7 @@ li {
         text-align: center;
     }
 
-    .banner{
+    .banner {
         flex-direction: column;
     }
 }
