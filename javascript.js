@@ -1,8 +1,8 @@
 
 function abrirmenu() {
     let menu = document.getElementById("menu")
-    
-    if (menu.style.display === "none") {
+    console.log(menu.style.display)
+    if (menu.style.display === "none" || menu.style.display=== "") {
         console.log("test")
         menu.style.display = "block"
     }
