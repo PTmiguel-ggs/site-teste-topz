@@ -116,6 +116,12 @@ footer {
 footer p {
     font-size: 14px;
 }
+footer {
+    padding: 20px; 
+    border-radius: 15px; 
+    
+    text-align: center; 
+}
 
 footer .assinatura {
     font-size: 12px;
@@ -132,7 +138,8 @@ footer .assinatura {
 li {
     list-style: none;
 }
-.nav-links{ 
+
+.nav-links {
     display: flex;
 }
 
@@ -142,14 +149,19 @@ li {
         font: size 18pt;
     }
 
+    #menu {
+        display: none;
+
+    }
+
     .nav-links {
         font-size: 25pt;
         width: 100vw;
         position: absolute;
         text-align: center;
-        top: 48px;
+        top: 80px;
         left: 0;
-        background-color: red;
+        background-color: rgb(137, 67, 67);
         flex-direction: column;
     }
 
@@ -158,9 +170,7 @@ li {
         border-bottom: 1px solid #2222;
     }
 
-    /* .nav-links.active {
-        display: flex;
-    } */
+
 
     .hero {
         flex-direction: column;
@@ -168,5 +178,9 @@ li {
 
     .texto {
         text-align: center;
+    }
+
+    .banner{
+        flex-direction: column;
     }
 }
