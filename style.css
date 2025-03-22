@@ -132,6 +132,9 @@ footer .assinatura {
 li {
     list-style: none;
 }
+.nav-links{ 
+    display: flex;
+}
 
 @media (max-width: 800px) {
     .menu-toggle {
@@ -146,8 +149,8 @@ li {
         text-align: center;
         top: 48px;
         left: 0;
-        display: none;
         background-color: red;
+        flex-direction: column;
     }
 
     .nav-links li {
@@ -155,9 +158,9 @@ li {
         border-bottom: 1px solid #2222;
     }
 
-    .nav-links.active {
+    /* .nav-links.active {
         display: flex;
-    }
+    } */
 
     .hero {
         flex-direction: column;
