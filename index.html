@@ -2,49 +2,56 @@
 <html lang="pt">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Teste para o prof</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teste para o prof</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header>
-        <div class="logo">First site</div>
-        <div class="menu-toggle" onclick="abrirmenu()">☰</div>
-        <nav class="links">
-            <ul class="nav-links" id="menu">
-                <li><a href="https://github.com/PTmiguel-ggs">github</a></li>
-                <li><a href="https://www.linkedin.com/in/miguel-ara%C3%BAjo-598749338/">linkedin</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="logo">First site</div>
+    <div class="menu-toggle" onclick="abrirmenu()">☰</div>
+    <nav class="links">
+      <ul class="nav-links" id="menu">
+        <li><a href="https://github.com/PTmiguel-ggs">github</a></li>
+        <li><a href="https://www.linkedin.com/in/miguel-ara%C3%BAjo-598749338/">linkedin</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="banner">
-        <img width="500px" src="https://i.redd.it/7o0npe03222d1.jpeg"
-            alt="imagen de html e css modelo">
-        <div>
-            <h1> Mike</h1>
-            <p>I'm 13 and I have skills in HTML, CSS, and JavaScript.</p>
-        </div>
+  <section class="banner">
+    <img width="500px" src="https://i.redd.it/7o0npe03222d1.jpeg" alt="imagen de html e css modelo" />
+    <div>
+      <h1 id="titulo">Mike</h1>
+      <p id="descricao">I'm 13 and I have skills in HTML, CSS, and JavaScript.</p>
+    </div>
 
-        <section class="links" id="links">
-            <a href="https://relogio-seven-beta.vercel.app/">-- site do temporizador/tempo/horas</a>
-            <a href="https://subnautica-two.vercel.app/">-- site subnautica</a>
-            <a href="https://listas-opel.vercel.app/">-- site listas</a>
-            <a href="https://calculadora-ten.vercel.app/">-- site calculadora</a>
-            <!-- Link novo para o site do dinossauro -->
-            <a href="https://dinosauro-tau.vercel.app/">-- site do dinossauro</a>
-        </section>
-
+    <section class="links" id="links">
+      <a href="https://relogio-seven-beta.vercel.app/">-- site do temporizador/tempo/horas</a>
+      <a href="https://subnautica-two.vercel.app/">-- site subnautica</a>
+      <a href="https://listas-opel.vercel.app/">-- site listas</a>
+      <a href="https://calculadora-ten.vercel.app/">-- site calculadora</a>
+      <a href="https://dinosauro-tau.vercel.app/">-- site do dinossauro</a>
     </section>
+  </section>
 
-    <footer>
-        <p>Everything on this page was created by me</p>
-        <p class="assinatura"> mike </p>
-    </footer>
+  <footer>
+    <p id="footer-text">Everything on this page was created by me</p>
+    <p class="assinatura">mike</p>
+  </footer>
 
-    <script src="javascript.js"></script>
+  <!-- Botões de idioma fixos com bandeiras emoji -->
+  <div id="language-buttons">
+    <button id="btn-pt" aria-label="Português">
+      <span class="flag">🇧🇷</span> PT
+    </button>
+    <button id="btn-en" aria-label="English">
+      <span class="flag">🇺🇸</span> EN
+    </button>
+  </div>
+
+  <script src="javascript.js"></script>
 </body>
-
+ 
 </html>
