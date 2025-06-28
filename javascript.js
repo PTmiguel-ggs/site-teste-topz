@@ -11,7 +11,7 @@ function abrirmenu() {
 const texts = {
   pt: {
     titulo: "Mike",
-    descricao: "Tenho 13 anos e possuo habilidades em HTML, CSS e JavaScript.",
+    descricao: "Tenho 16 anos e possuo habilidades em HTML, CSS e JavaScript.",
     "link-timer": "-- site do temporizador/tempo/horas",
     "link-subnautica": "-- site Subnautica",
     "link-listas": "-- site listas",
