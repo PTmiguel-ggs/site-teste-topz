@@ -21,7 +21,7 @@ const texts = {
   },
   en: {
     titulo: "Mike",
-    descricao: "I'm 13 and I have skills in HTML, CSS, and JavaScript.",
+    descricao: "I'm 16 and I have skills in HTML, CSS, and JavaScript.",
     "link-timer": "-- timer/clock site",
     "link-subnautica": "-- Subnautica site",
     "link-listas": "-- lists site",
